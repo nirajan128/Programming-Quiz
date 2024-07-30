@@ -1,0 +1,129 @@
+
+/* @Author : Nirajan Shrestha - 000934040 - July 6,2024 */
+* {
+  -fx-light-black-color: #1E1E1E;
+  -fx-green-color: #6A9955;
+  -fx-white-color: #FFFFFF;
+  -fx-shadow-color: #D4D4D4;
+  -fx-btn-txt-color: #B5CEA8;
+  -fx-red:#FF0000;
+  -fx-green: #00FF00;
+  -fx-yellow: #FFFF00;
+  -fx-darkGreen: #6A9955;
+}
+
+.defaultBackground {
+  -fx-background-color: -fx-light-black-color;
+}
+
+.customButton {
+  -fx-background-color: -fx-green-color;
+  -fx-font-size: 20px;
+  -fx-text-fill: -fx-btn-txt-color;
+  -fx-font-family: "Arial";
+  -fx-font-weight: bold;
+}
+
+.buttonShadow {
+  -fx-background-color: -fx-shadow-color;
+}
+
+.logo {
+  -fx-text-fill: -fx-white-color;
+  -fx-font-size: 42px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bolder;
+}
+
+.small-logo {
+  -fx-text-fill: -fx-shadow-color;
+  -fx-font-size: 24px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bolder;
+}
+
+.normal-text{
+  -fx-text-fill: -fx-shadow-color;
+  -fx-font-size: 14px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bolder;
+}
+.correct-text{
+  -fx-text-fill: -fx-darkGreen;
+  -fx-font-size: 14px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bolder;
+}
+.wrong-text{
+  -fx-text-fill: -fx-red;
+  -fx-font-size: 14px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bolder;
+}
+
+.question-text{
+  -fx-text-fill: -fx-darkGreen;
+  -fx-font-size: 16px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bold;
+}
+
+.credit {
+  -fx-text-fill: -fx-white-color;
+  -fx-font-size: 12px;
+  -fx-font-family: "Courier New", Courier, monospace;
+  -fx-font-weight: bold;
+}
+
+.circle-button-1{
+  -fx-pref-width:5px;
+  -fx-pref-height:5px;
+  -fx-background-color: -fx-red;
+  -fx-background-radius:50%;
+  -fx-border-radius: 50%;
+}
+.circle-button-2{
+  -fx-pref-width:5px;
+  -fx-pref-height:5px;
+  -fx-background-color: -fx-green;
+  -fx-background-radius:50%;
+  -fx-border-radius: 50%;
+}
+.circle-button-3{
+  -fx-pref-width:5px;
+  -fx-pref-height:5px;
+  -fx-background-color: -fx-yellow;
+  -fx-background-radius:50%;
+  -fx-border-radius: 50%;
+}
+
+
+.custom-button{
+ -fx-font-size: 12px;
+ -fx-text-fill: black;
+ -fx-padding: 8px 16px;
+ -fx-border-radius: 5px;
+ -fx-background-radius: 5px;
+ -fx-cursor: hand;
+ -fx-opacity: 0.9;
+}
+
+.green{
+-fx-background-color: -fx-green;
+}
+
+.yellow{
+-fx-background-color: -fx-yellow;
+}
+
+.red{
+-fx-background-color: -fx-red;
+}
+
+.darkGreen{
+-fx-background-color: -fx-darkGreen;
+}
+.button:disabled{
+  -fx-opacity: 0.4;
+}
+
